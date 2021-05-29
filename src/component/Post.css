@@ -1,0 +1,10 @@
+.post {
+    max-width: 500px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+.post__image {
+    object-fit: contain;
+    border-top: 2px solid lightgray;
+    border-bottom:2px solid lightgray ;
+}
