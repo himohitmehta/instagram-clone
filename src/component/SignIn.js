@@ -57,6 +57,7 @@ const SignIn = ({ setOpen, open }) => {
 						fullWidth
 						type="text"
 						value={email}
+						placeholder="Enter your email..."
 						onChange={(e) => setEmail(e.target.value)}
 					/>
 
@@ -64,6 +65,7 @@ const SignIn = ({ setOpen, open }) => {
 						type="password"
 						value={password}
 						fullWidth
+						placeholder="Enter your password..."
 						onChange={(e) => setPassword(e.target.value)}
 					/>
 

@@ -51,7 +51,7 @@ const SignUp = ({setOpen, open}) => {
 							fullWidth
 							value={username}
 							type="text"
-							placeholder="Enter Username"
+							placeholder="Enter your username..."
 							onChange={(e) => setUsername(e.target.value)}
 						/>
 
@@ -59,6 +59,8 @@ const SignUp = ({setOpen, open}) => {
 							fullWidth
 							type="text"
 							value={email}
+							placeholder="Enter your email..."
+
 							onChange={(e) => setEmail(e.target.value)}
 						/>
 
@@ -66,11 +68,12 @@ const SignUp = ({setOpen, open}) => {
 							type="password"
 							value={password}
 							fullWidth
+							placeholder="Enter your password"
 							onChange={(e) => setPassword(e.target.value)}
 						/>
 
 						<Button fullWidth type="submit" onClick={signUp}>
-							SignUp
+							Create Account
 						</Button>
 					</form>
 				</div>

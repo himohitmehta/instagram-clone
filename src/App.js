@@ -83,7 +83,7 @@ function App() {
 						<Button onClick={() => auth.signOut()}>Logout</Button>
 					) : (
 						<div>
-							<Button onClick={() => setOpen(true)}>Sign Up</Button>
+							<Button onClick={() => setOpen(true)}>Create Account</Button>
 
 							<Button onClick={() => setOpenSignIn(true)}>Log In</Button>
 						</div>
